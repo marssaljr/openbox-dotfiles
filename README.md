@@ -1,5 +1,5 @@
 # Openbox Dotfiles  
-
+__________________
   basically this is my personal desktop in all nix distros  
 
 ![](backup.png)  
@@ -7,8 +7,9 @@
 # Thank you [addy](https://github.com/addy-dclxvi)  
 > [tint2-theme-collections - minima](https://github.com/addy-dclxvi/tint2-theme-collections)  
 > [conky-theme-collections - informant - inf-lime](https://github.com/addy-dclxvi/conky-theme-collections)  
-### A brief tutorial  
+### A brief tutorial 
 #### Requeriments  
+___________________
 * Openbox
 * Tint2
 * Nitrogen
@@ -23,5 +24,13 @@
 4. Restart your openbox
 
 #### Optional
-`git clone https://github.com/addy-dclxvi/conky-theme-collections ~/.config/conky --depth 1`
+______________
+##### Conky
+`git clone https://github.com/addy-dclxvi/conky-theme-collections ~/.config/conky --depth 1`  
+`conky -c ~/.config/conky/informant/inf-lime.conkyrc`  
+> color: `#8FBF65`
+##### Tint2
+_______________
+`git clone https://github.com/addy-dclxvi/tint2-theme-collections ~/.config/tint2 --depth 1`
+> This gonna start automatically
 
