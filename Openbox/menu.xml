@@ -3,9 +3,9 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <menu id="apps-accessories-menu" label="Accessories">
-  <item label="Ark File Archiver">
+  <item label="BurpSuite">
     <action name="Execute">
-      <command>ark</command>
+      <command>burpsuite</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -14,29 +14,12 @@
 </menu>
 
 <menu id="apps-editors-menu" label="Editors">
-  <item label="GVim">
-    <action name="Execute">
-      <command>gvim</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>GVim</wmclass>
-      </startupnotify>
-    </action>
-  </item>
   <item label="Emacs">
     <action name="Execute">
       <command>emacs</command>
       <startupnotify>
         <enabled>yes</enabled>
         <wmclass>Emacs</wmclass>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="GhostWriter">
-    <action name="Execute">
-      <command>ghostwriter</command>
-      <startupnotify>
-        <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
@@ -56,6 +39,11 @@
       </startupnotify>
     </action>
   </item>
+  <item label="Atom">
+    <action name="Atom">
+      <command>atom</command>
+    </action>
+  </item>
 </menu>
 
 <menu id="apps-term-menu" label="Terminals">
@@ -69,6 +57,9 @@
   </item>
   <item label="Xterm">
     <action name="Execute"><command>xterm</command></action>
+  </item>
+  <item label="Standard">
+    <action name="Execute"><command>xfce4-terminal</command></action>
   </item>
 </menu>
 <menu id="apps-net-menu" label="Internet">
@@ -93,63 +84,22 @@
 </menu>
 
 <menu id="apps-office-menu" label="Office">
-  <item label="OpenOffice Base">
+  <item label="Libreoffice">
     <action name="Execute">
-      <command>ooffice -base</command>
+      <command>libreoffice</command>
     </action>
   </item>
-  <item label="OpenOffice Calc">
+  <item label="Evince">
     <action name="Execute">
-      <command>ooffice -calc</command>
+      <command>evince</command>
     </action>
-  </item>
-  <item label="OpenOffice Draw">
-    <action name="Execute">
-      <command>ooffice -draw</command>
-    </action>
-  </item>
-  <item label="OpenOffice Impress">
-    <action name="Execute">
-      <command>ooffice -impress</command>
-    </action>
-  </item>
-  <item label="OpenOffice Math">
-    <action name="Execute">
-      <command>ooffice -math</command>
-    </action>
-  </item>
-  <item label="OpenOffice Printer Administration">
-    <action name="Execute">
-      <command>ooffice-printeradmin</command>
-    </action>
-  </item>
-  <item label="OpenOffice Writer">
-    <action name="Execute">
-      <command>ooffice -writer</command>
-    </action>
-  </item>
+  </item
 </menu>
 
 <menu id="apps-multimedia-menu" label="Multimedia">
   <item label="Spotify">
     <action name="Execute">
       <command>spotify</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Ncmpcpp">
-    <action name="Execute">
-      <command>ncmpcpp</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="K3b">
-    <action name="Execute">
-      <command>k3b</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -164,39 +114,23 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Totem">
-    <action name="Execute">
-      <command>totem</command>
+  <item label="VLC">
+    <action name="VLC">
+      <command>vlc</command>
       <startupnotify>
         <enabled>yes</enabled>
+        <wmclass>VLC</wmclass>
       </startupnotify>
     </action>
   </item>
 </menu>
 
 <menu id="apps-fileman-menu" label="File Managers">
-  <item label="Nautilus">
-    <action name="Execute">
-      <command>nautilus --no-desktop --browser</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
   <item label="Thunar">
     <action name="Execute">
       <command>Thunar</command>
       <startupnotify>
         <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Rox">
-    <action name="Execute">
-      <command>rox</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>ROX-Filer</wmclass>
       </startupnotify>
     </action>
   </item>
@@ -219,9 +153,9 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Dia Diagram Editor">
+  <item label="Pinta">
     <action name="Execute">
-      <command>dia</command>
+      <command>pinta</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
