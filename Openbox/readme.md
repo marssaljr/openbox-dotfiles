@@ -1,1 +1,1 @@
-
+### I had created a shellscript launch.sh in ~ / .config / tint2 / launch.sh, this load and reload the tint2 and help me make some changes...But you can use the addy tint2 theme and create your script
