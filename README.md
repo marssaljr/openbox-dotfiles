@@ -4,9 +4,6 @@ __________________
 
 ![](backup.png)  
 
-# Thank you [addy](https://github.com/addy-dclxvi)  
-> [tint2-theme-collections - minima](https://github.com/addy-dclxvi/tint2-theme-collections)  
-> [conky-theme-collections - informant - inf-lime](https://github.com/addy-dclxvi/conky-theme-collections)  
 ### A brief tutorial 
 #### Requeriments  
 ___________________
@@ -34,3 +31,7 @@ _______________
 `git clone https://github.com/addy-dclxvi/tint2-theme-collections ~/.config/tint2 --depth 1`
 > This gonna start automatically
 
+_______________
+###### Thanks [addy](https://github.com/addy-dclxvi) for tint2 and conky
+> [tint2-theme-collections - minima](https://github.com/addy-dclxvi/tint2-theme-collections)  
+> [conky-theme-collections - informant - inf-lime](https://github.com/addy-dclxvi/conky-theme-collections)  
